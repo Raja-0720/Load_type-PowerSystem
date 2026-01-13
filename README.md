@@ -60,10 +60,15 @@ Pickle
 Project Structure
 
 Power-Load-Predictor/
+
 │
 ├── app.py
+
 ├── load_type_model.pkl
+
 ├── scaler.pkl
+
 ├── requirements.txt
+
 └── README.md
 
