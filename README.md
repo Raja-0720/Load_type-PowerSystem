@@ -8,7 +8,8 @@ Power system load prediction is crucial for efficient energy planning, system re
 This project builds a machine learning model that predicts the load type of a power system using historical energy usage, reactive power, environmental, and time-based features.
 
 The trained model is deployed as a real-time Streamlit web application for interactive predictions.
-🚀 Features
+
+Features
 
 ✔ Predicts Light / Medium / Maximum Load
 ✔ Time-aware ML model
@@ -16,7 +17,8 @@ The trained model is deployed as a real-time Streamlit web application for inter
 ✔ Dark themed modern UI
 ✔ Real-time prediction using Streamlit
 ✔ Production-ready serialized model
-🧠 Machine Learning Details
+
+Machine Learning Details
 
 | Component                | Description                           |
 | ------------------------ | ------------------------------------- |
@@ -26,7 +28,9 @@ The trained model is deployed as a real-time Streamlit web application for inter
 | Class Imbalance Handling | `class_weight='balanced'`             |
 | Evaluation Metrics       | Accuracy, Precision, Recall, F1-Score |
 
-📊 Input Features
+
+Input Features
+
 Feature
 Usage (kWh)
 Lagging Reactive Power
@@ -37,11 +41,11 @@ Leading Power Factor
 Month
 Hour
 
-🖥️ Streamlit Web App
+Streamlit Web App
 
 The model is deployed as a dark themed web UI that allows users to input parameters and instantly get predictions.
 
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
@@ -52,7 +56,9 @@ Scikit-learn
 Streamlit
 
 Pickle
-📁 Project Structure
+
+Project Structure
+
 Power-Load-Predictor/
 │
 ├── app.py
