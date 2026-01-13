@@ -1,20 +1,62 @@
-# Load_type-PowerSystem
+⚡ Power Load Type Prediction System
 
-In this project, a machine learning–based classification system was developed to predict the operating Load_Type of a power system using historical energy consumption, reactive power, environmental, and time-based features. The problem was formulated as a supervised multi-class classification task with three target categories: Light Load, Medium Load, and Maximum Load.
+An end-to-end AI application that predicts power system load conditions (Light, Medium, Maximum) using machine learning and a Streamlit web interface.
+📌 Project Overview
 
-Comprehensive data preprocessing, exploratory data analysis, and feature engineering were performed to understand the underlying patterns and prepare the dataset for modeling. Time-based features such as Month and Hour were engineered to capture seasonal and daily variations in power usage, which significantly improved the learning capability of the models.
+Power system load prediction is crucial for efficient energy planning, system reliability, and reducing operational risks.
+This project builds a machine learning model that predicts the load type of a power system using historical energy usage, reactive power, environmental, and time-based features.
 
-Two machine learning models were implemented: Logistic Regression as a baseline and Random Forest as the primary predictive model. Among them, the Random Forest classifier achieved superior performance due to its ability to model complex non-linear relationships present in power consumption data.
+The trained model is deployed as a real-time Streamlit web application for interactive predictions.
+🚀 Features
 
-The developed model can assist power utility organizations in:
-Optimizing energy generation and distribution,
-Preventing system overload during peak demand,
-Reducing energy wastage during low-demand periods,
-Improving overall operational reliability.
+✔ Predicts Light / Medium / Maximum Load
+✔ Time-aware ML model
+✔ Handles class imbalance
+✔ Dark themed modern UI
+✔ Real-time prediction using Streamlit
+✔ Production-ready serialized model
+🧠 Machine Learning Details
 
-Future Scope
+| Component                | Description                           |
+| ------------------------ | ------------------------------------- |
+| Problem Type             | Multi-Class Classification            |
+| Algorithm                | Random Forest (Class-Weighted)        |
+| Scaling                  | StandardScaler                        |
+| Class Imbalance Handling | `class_weight='balanced'`             |
+| Evaluation Metrics       | Accuracy, Precision, Recall, F1-Score |
 
-The model can be further enhanced by:
-Applying hyperparameter tuning,
-Exploring advanced ensemble methods such as Gradient Boosting and XGBoost,
-Integrating real-time sensor data for live load prediction.
+📊 Input Features
+Feature
+Usage (kWh)
+Lagging Reactive Power
+Leading Reactive Power
+CO2 Emission
+Lagging Power Factor
+Leading Power Factor
+Month
+Hour
+
+🖥️ Streamlit Web App
+
+The model is deployed as a dark themed web UI that allows users to input parameters and instantly get predictions.
+
+🛠️ Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+Streamlit
+
+Pickle
+📁 Project Structure
+Power-Load-Predictor/
+│
+├── app.py
+├── load_type_model.pkl
+├── scaler.pkl
+├── requirements.txt
+└── README.md
+
