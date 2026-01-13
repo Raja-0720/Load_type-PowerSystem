@@ -1,8 +1,8 @@
 ⚡ Power Load Type Prediction System
 
 An end-to-end AI application that predicts power system load conditions (Light, Medium, Maximum) using machine learning and a Streamlit web interface.
-📌 Project Overview
 
+Project Overview
 Power system load prediction is crucial for efficient energy planning, system reliability, and reducing operational risks.
 This project builds a machine learning model that predicts the load type of a power system using historical energy usage, reactive power, environmental, and time-based features.
 
