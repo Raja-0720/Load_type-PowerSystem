@@ -1,7 +1,11 @@
 ⚡ Power Load Type Prediction System
 
 An end-to-end AI application that predicts power system load conditions (Light, Medium, Maximum) using machine learning and a Streamlit web interface.
+
+deployed Link of this project:- https://loadtype-powersystem-70.streamlit.app/
+
 UI of this project
+
 <img width="1080" height="903" alt="image" src="https://github.com/user-attachments/assets/277bb906-9c88-4acc-8f33-838fa0162be8" />
 
 
