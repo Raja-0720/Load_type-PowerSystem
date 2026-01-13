@@ -5,7 +5,7 @@ import numpy as np
 st.set_page_config(page_title="Power Load Predictor", layout="centered")
 
 # Load model
-model = pickle.load(open("C:/Users/Raja/UseReady/load_type_model.pkl", "rb"))
+model = pickle.load(open("load_type_model.pkl", "rb"))
 
 st.markdown("<h1 style='color:white;'>⚡ Power Load Predictor</h1>", unsafe_allow_html=True)
 st.markdown("<p style='color:gray;'>Predict power system load condition</p>", unsafe_allow_html=True)
